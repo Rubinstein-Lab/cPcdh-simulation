@@ -1,3 +1,10 @@
+# This code has been written by Nadir Boni from the Rotem Rubinster lab, Tel Aviv University, Israel.
+# This code has been used for the data presented in the paper "On the Formation of Ordered Protein Assemblies in Cell-cell Interfaces" published in PNAS.
+# This file run the simulations based on the inputs inserted below. Each simulation create a directory with the extracted data. 
+# For analyais and visualization of the extracted data, use the 'Analysis_file.py'.
+
+
+
 from Launcher import Initiator as init
 import sys
 import os
