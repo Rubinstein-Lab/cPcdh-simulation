@@ -1,3 +1,9 @@
+# This code has been written by Nadir Boni from the Rotem Rubinster lab, Tel Aviv University, Israel.
+# This code has been used for the data presented in the paper "On the Formation of Ordered Protein Assemblies in Cell-cell Interfaces" published in PNAS.
+# This file is being accesed by the 'PC_file.py' and contain the functions used there.
+
+
+
 import numpy as np
 import random
 import math
