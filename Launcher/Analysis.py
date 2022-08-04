@@ -1,5 +1,10 @@
-import glob
+# This code has been written by Nadir Boni from the Rotem Rubinster lab, Tel Aviv University, Israel.
+# This code has been used for the data presented in the paper "On the Formation of Ordered Protein Assemblies in Cell-cell Interfaces" published in PNAS.
+# This file is being accesed by the 'Analysis_file.py' and contain the functions used there.
 
+
+
+import glob
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
