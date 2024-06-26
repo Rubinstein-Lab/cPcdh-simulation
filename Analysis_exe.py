@@ -1,3 +1,8 @@
+# This code has been written by Nadir Boni from the Rotem Rubinstein lab, Tel-Aviv University, Israel.
+# This code has been submitted in the paper "clustered protocadherin cis-interactions are required
+# for combinatorial cell–cell recognition underlying neuronal self-avoidance" (PNAS 2024).
+
+
 import zipfile
 import os
 
