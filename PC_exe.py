@@ -1,3 +1,8 @@
+# This code has been written by Nadir Boni from the Rotem Rubinstein lab, Tel-Aviv University, Israel.
+# This code has been submitted in the paper "clustered protocadherin cis-interactions are required
+# for combinatorial cell–cell recognition underlying neuronal self-avoidance" (PNAS 2024).
+
+
 from Launcher import Initiator as init
 import pandas as pd
 import numpy as np
@@ -15,7 +20,7 @@ num_SameIso = 1  # number of the same isoforms between the membranes. type:int
 num_DifIso = 0  # number of the different isoforms between the membranes. type:int
 isoAmount = 4  # percent of proteins in the grid from all(!) isoforms. type:int, have to be between 0-100!
 
-KAcis = "./Affinity_Matrix.xlsx"  # cis affinity. can be type:int and the cis affinity will be the same for all isoforms, and can be type:str
+KAcis = 6  # cis affinity. can be type:int and the cis affinity will be the same for all isoforms, and can be type:str
 # and contain a path to a csv file with an affinity table
 
 KAtransSelf = 6  # trans affinity to the same isoform. type:int
